@@ -1,0 +1,16 @@
+
+#algo = input('digite algo:')
+#print('o tipo premitivo é',type(algo))
+algo = input('Digite algo:')
+print('o tipo primitivo acima é:',type(algo))
+print('o que você escreveu é só alfábetico:',algo.isalpha())
+print('o que você escreveu é só número:',algo.isnumeric())
+print('o que você escreveu possui letra e número:',algo.isalnum())
+print('o que você escreu é só espaço:',algo.isspace())
+print('o que você escreveu é decimal:',algo.isdecimal())
+print('o que você escreveu é tudo minúsculo:',algo.islower())
+print('o que você escreveu é tudo maiúsculo:',algo.isupper())
+print('o que você escreveu é digito:',algo.isdigit())
+print('o que você escreveu é titulo:',algo.istitle())
+print('o que você escreveu é captalizado:',algo.istitle())
+#Capitalizada = são letras Maiuscúlas e Minuscúlas

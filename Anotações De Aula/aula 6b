@@ -1,0 +1,8 @@
+n = input('Digite algo')
+print(n.isnumeric())
+
+#isnumeric - é numerico
+#isalfha - é alfabetico
+#isalnum - alfabetico e numerico
+#isupper - somente letras maiúsculas
+#islower - somente minusculas

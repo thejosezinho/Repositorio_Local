@@ -1,0 +1,25 @@
+'''
+Operadores aritiméticos
+
+** = Potenciação
+
+% = Resto da Divisão
+
+//= Divisão inteira
+
+ORDEM DE PRECEDÊNCIA
+
+1 = ()
+2 = **    OU pow(4,3) 
+3 = * / // %
+4 = + -
+
+OBS:
+raís quadrada = 81**(1/2)
+Diminuir as casa decimais = (:.3f) o numúmero é a quantidade de casas decimais
+Como não quebrar linha = (, end =' ')
+Como quebrar a linha = (\n) CONTRA BARRA
+Como fazer uma sucessão de caracteres = print('{:=^20}'.format(espaco)) espaço é oq fazer sucessão
+'''
+s = 81**(1/2)
+print(s)

@@ -1,0 +1,11 @@
+tupla = ('Flamengo', 'Cruzeiro', 'Palmeiras', 'Bahia', "Botafogo", "Mirassol", 'São Paulo ', 'Bragantino ', 'Fluminense', 'Atlético-MG', 'Internacional', 'Ceará SC', 'Corinthians', 'Santos', 'Gremio', 'EC Vitória', 'Vasco da Gama', 'Fortaleza', 'Juventude', 'Sport Recife')
+print()
+print(f'Os cincos primeiros colocados são {tupla[0:5]}')
+print()
+print(f'Os times do Z4 são {tupla[-4:]}')
+print()
+print(f'Em ordem Alfabética é {sorted(tupla)}')
+print()
+print(f'O Vasco da Gama se encontra na posição {tupla.index('Vasco da Gama') + 1}º')
+print('O PIRATA É BANCO PARA O YURI ABERTO!!!')
+
